@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: #17174b;
+    height: 100vh;
+}
+.container {
+    margin-top: 30px;
+}
+
+.half-width {
+    height: 570px;
+    background: #1a4d64;
+    padding: 30px;
+    text-align: center;
+}
+.generate-btn{
+    margin-top: 140px;
+    width: 180px;
+    padding: 50px;
+    border-radius: 50%;
+    border: 8px solid #0d2335;
+    background-color: #1f618d;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.generate-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+input[type='text']{
+    background-color: #adddd9;
+    padding: 10px 0px;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #595766;
+    height: 50px;
+    padding: 10px;
+}
+input[type='text']:focus {
+    background-color: #6a858a;
+    color: #fff;
+    font-size: 20px;
+}
+.numbers {
+    margin: 30px 0;
+}
+
+.calc-typed {
+    margin-top: 20px;
+    font-size: 45px;
+    text-align: right;
+    color: #fff;
+}
+
+.calc-button-row {
+    width: 100%;
+}
+
+.button {
+    width: 20%;
+    background: #9de2df;
+    color: rgb(20, 20, 20);
+    padding: 20px 0;
+    margin: 5px;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: -4px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+#clear-space{
+    color:rgb(240, 109, 2);
+    font-weight: 1000;
+
+}
+#clear-all{
+    color:rgb(240, 109, 2);
+    font-weight: 1000;
+}
+.button:hover{
+    background-color: rgb(160, 185, 171);
+    color: black;
+}
+.blink-me {
+    color: #d88509;
+}
+.submit-btn {
+    border: none;
+    margin-top: 20px;
+    padding: 10px 120px;
+    border-radius: 5px;
+    background: #a86205;
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 700;
+}
+.notify {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background: #2e404d;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    display: none;
+}
+.notify-section{
+    width: 35%;
+    margin: 0 auto;
+}
+.action-left {
+    color: #c74545;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.form-control{
+
+    color: rgb(19, 18, 18);
+    font-weight: 600;
+    font-size: 20px;
+}
